@@ -1,0 +1,28 @@
+{
+  "name": "mykomik-rest-api",
+  "version": "1.0.0",
+  "description": "MgKomik Unofficial API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahidabd/mykomik-rest-api.git"
+  },
+  "author": "Abd. Wahid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wahidabd/mykomik-rest-api/issues"
+  },
+  "homepage": "https://github.com/wahidabd/mykomik-rest-api#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "nodemon": "^2.0.19"
+  }
+}
